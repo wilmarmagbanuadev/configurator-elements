@@ -1,0 +1,131 @@
+{
+  "success": true,
+  "data": {
+    "templates": [
+      {
+        "template_id": 3,
+        "title": "Homepage Portfolio 1",
+        "description": "",
+        "categories": [
+          "portfolio"
+        ],
+        "keywords": [],
+        "source": "blankelements_api",
+        "hasPageSettings": "",
+        "thumbnail": "preview-3.jpg",
+        "preview": "preview-3.jpg",
+        "livelink": "https://products.blankelements.com/agency/",
+        "type": "blankelements_page",
+        "author": "BloomPixel",
+        "package": "free",
+        "modified": "2020-05-03 09:23:04"
+      }
+    ],
+    "categories": [
+      {
+        "title": "Select Option",
+        "slug": ""
+      },
+      {
+        "title": "Travel Agency",
+        "slug": "travel_agency"
+      },
+      {
+        "title": "Agency",
+        "slug": "agency"
+      },
+      {
+        "title": "Medical",
+        "slug": "medical"
+      },
+      {
+        "title": "Business",
+        "slug": "business"
+      },
+      {
+        "title": "Carrepair",
+        "slug": "carrepair"
+      },
+      {
+        "title": "Cleaning",
+        "slug": "cleaning"
+      },
+      {
+        "title": "Construction",
+        "slug": "construction"
+      },
+      {
+        "title": "Education",
+        "slug": "education"
+      },
+      {
+        "title": "Event",
+        "slug": "event"
+      },
+      {
+        "title": "Beauty And Spa",
+        "slug": "beauty_and_spa"
+      },
+      {
+        "title": "Garden",
+        "slug": "garden"
+      },
+      {
+        "title": "Hosting",
+        "slug": "hosting"
+      },
+      {
+        "title": "Islamic",
+        "slug": "islamic"
+      },
+      {
+        "title": "Lawyer",
+        "slug": "lawyer"
+      },
+      {
+        "title": "Mobile App",
+        "slug": "mobile_app"
+      },
+      {
+        "title": "Photography",
+        "slug": "photography"
+      },
+      {
+        "title": "Political",
+        "slug": "political"
+      },
+      {
+        "title": "Inner Pages",
+        "slug": "inner_pages"
+      },
+      {
+        "title": "Restaurant",
+        "slug": "restaurant"
+      },
+      {
+        "title": "Software",
+        "slug": "software"
+      },
+      {
+        "title": "Sports",
+        "slug": "sports"
+      },
+      {
+        "title": "Wedding",
+        "slug": "wedding"
+      },
+      {
+        "title": "Yoga",
+        "slug": "yoga"
+      },
+      {
+        "title": "Music",
+        "slug": "music"
+      },
+      {
+        "title": "Portfolio",
+        "slug": "portfolio"
+      }
+    ]
+  }
+}

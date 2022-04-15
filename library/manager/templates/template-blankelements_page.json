@@ -1,0 +1,72 @@
+{
+    "success": true,
+    "data": {
+        "templates": [
+            {
+                "template_id": 1,
+                "title": "About Page",
+                "description": "Creative design for about page",
+                "categories": [
+                    "inner_pages"
+                ],
+                "keywords": [],
+                "source": "blankelements_api",
+                "hasPageSettings": "",
+                "thumbnail": "about-template.png",
+                "preview": "about-template.png",
+                "livelink": "https://configurator.wpconfigurator.com/about/",
+                "type": "blankelements_page",
+                "author": "Archie",
+                "package": "free",
+                "modified": "2022-04-13 09:23:04"
+            },
+            {
+                "template_id": 2,
+                "title": "Portfolio Page",
+                "description": "Creative design for portfolio",
+                "categories": [
+                    "inner_pages"
+                ],
+                "keywords": [],
+                "source": "blankelements_api",
+                "hasPageSettings": "",
+                "thumbnail": "Portfolio.png",
+                "preview": "Portfolio.png",
+                "livelink": "https://configurator.wpconfigurator.com/portfolio/",
+                "type": "blankelements_page",
+                "author": "Archie",
+                "package": "free",
+                "modified": "2022-04-13 09:23:04"
+            },
+            {
+                "template_id": 3,
+                "title": "Services Page",
+                "description": "Creative design for service template",
+                "categories": [
+                    "inner_pages"
+                ],
+                "keywords": [],
+                "source": "blankelements_api",
+                "hasPageSettings": "",
+                "thumbnail": "services.png",
+                "preview": "services.png",
+                "livelink": "https://configurator.wpconfigurator.com/services/",
+                "type": "blankelements_page",
+                "author": "Archie",
+                "package": "free",
+                "modified": "2022-04-13 09:23:04"
+            }
+            
+        ],
+        "categories": [{
+                "title": "Select Option",
+                "slug": ""
+            },
+            
+            {
+                "title": "Inner Pages",
+                "slug": "inner_pages"
+            }
+        ]
+    }
+}

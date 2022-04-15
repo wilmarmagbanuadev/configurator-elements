@@ -1,0 +1,49 @@
+/* Bootstrap custom class */
+.w-20{
+    width: 20%;
+}
+
+
+/* grid */
+
+.masonry-1 {
+    column-count: 1;
+}
+.masonry-2 {
+    column-count: 2;
+}
+.masonry-3 {
+    column-count: 3;
+}
+.masonry-4 {
+    column-count: 4;
+}
+.masonry-5 {
+    column-count: 5;
+}
+.masonry-6 {
+    column-count: 6;
+}
+  
+  /* img {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media(max-width: 800px) {
+      .grid {
+        column-count: 3;
+    }
+  }
+  
+  @media(max-width: 600px) {
+      .grid {
+        column-count: 2;
+    }
+  }
+  
+  @media(max-width: 400px) {
+      .grid {
+        column-count: 1;
+    }
+  } */

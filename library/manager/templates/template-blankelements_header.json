@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "data": {
+    "templates": [
+      {
+        "template_id": 300,
+        "title": "Header 1",
+        "description": "",
+        "categories": [
+          "inner_pages"
+        ],
+        "keywords": [],
+        "source": "blankelements_api",
+        "hasPageSettings": "",
+        "thumbnail": "header-menu-1.png",
+        "preview": "header-menu-1.png",
+        "livelink": "#",
+        "type": "blankelements_page",
+        "author": "Archie",
+        "package": "free",
+        "modified": "2020-05-03 09:23:04"
+      },
+      {
+        "template_id": 301,
+        "title": "Header 2",
+        "description": "",
+        "categories": [
+          "inner_pages"
+        ],
+        "keywords": [],
+        "source": "blankelements_api",
+        "hasPageSettings": "",
+        "thumbnail": "header-menu-2.png",
+        "preview": "header-menu-2.png",
+        "livelink": "#",
+        "type": "blankelements_page",
+        "author": "Archie",
+        "package": "free",
+        "modified": "2020-05-03 09:23:04"
+      }
+    ],
+
+    "categories": [
+      {
+        "title": "Select Option",
+        "slug": ""
+      },
+      {
+        "title": "Inner Pages",
+        "slug": "inner_pages"
+      }
+      
+    ]
+  }
+}

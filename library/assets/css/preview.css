@@ -1,0 +1,35 @@
+.add-blankelements-template {
+    border-radius: 0;
+    padding: 0;
+    height: 44px;
+    width: 40px;
+    margin-left: 5px;
+    color: #ffffff;
+    border: none;
+    background: url(../images/configurator-icon-og.png) no-repeat left top transparent;
+    background-size: cover;
+    line-height: 40px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+.elementor-add-new-section {
+    display: inline-flex;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.add-blankelements-template {
+    order: 4;
+}
+
+.elementor-add-section-drag-title {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.add-blankelements-template i {
+    opacity: 0;
+}

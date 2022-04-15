@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "templates": [
+      {
+        "template_id": 200,
+        "title": "Homepage  1",
+        "description": "",
+        "categories": [
+          "inner_pages"
+        ],
+        "keywords": [],
+        "source": "blankelements_api",
+        "hasPageSettings": "",
+        "thumbnail": "hero-1.png",
+        "preview": "hero-1.png",
+        "livelink": "https://configurator.wpconfigurator.com/home",
+        "type": "blankelements_page",
+        "author": "Archie",
+        "package": "free",
+        "modified": "2020-05-03 09:23:04"
+      }
+    ],
+    "categories": [
+      {
+        "title": "Select Option",
+        "slug": ""
+      },
+      {
+        "title": "Inner Pages",
+        "slug": "inner_pages"
+      }
+    ]
+  }
+}

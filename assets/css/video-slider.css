@@ -1,0 +1,124 @@
+.video-slider-elementor-widget .slick-arrow {
+    position: absolute;
+    top: -65px;
+    z-index: 2;
+}
+
+.video-slider-elementor-widget .slick-dots {
+    position: absolute;
+}
+
+.video-slider-elementor-widget .slick-prev {
+    right: 135px;
+}
+
+.video-slider-elementor-widget .slick-next {
+    right: 0;
+}
+
+.video-slider-elementor-widget .slick-dots {
+    position: absolute;
+    width: 100%;
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding-left: 0;
+    bottom: -65px;
+}
+
+.video-slider-elementor-widget .slick-dots li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+}
+
+
+/*========================= custom arrow icon */
+
+
+/* arrow general */
+
+.arrow-style-icon .slick-prev,
+.arrow-style-icon .slick-next {
+    font-size: 0;
+}
+
+.arrow-style-icon .slick-prev:hover,
+.arrow-style-icon .slick-prev:focus,
+.arrow-style-icon .slick-next:hover,
+.arrow-style-icon .slick-next:focus {
+    text-decoration: none;
+}
+
+.arrow-style-icon .slick-prev::before,
+.arrow-style-icon .slick-next::before {
+    font-family: eicons;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.video-slider-elementor-widget.arrow-style-icon .slick-prev {
+    right: 100px;
+}
+
+.video-slider-elementor-widget.arrow-style-icon .slick-arrow {
+    top: -40px;
+}
+
+
+/* Style 1 */
+
+.arrow_style-style1 .slick-prev::before {
+    content: '\e87e';
+}
+
+.arrow_style-style1 .slick-next::before {
+    content: '\e87d';
+}
+
+
+/* Style 2 */
+
+.arrow_style-style2 .slick-prev,
+.arrow_style-style2 .slick-next {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 22px;
+    padding: 0;
+}
+
+.arrow_style-style2 .slick-prev {
+    transform: rotate(-180deg);
+}
+
+.arrow_style-style2 .slick-prev::before,
+.arrow_style-style2 .slick-next::before {
+    content: '\e903';
+}
+
+
+/* Style 3 */
+
+.arrow_style-style3 .slick-prev::before {
+    content: '\e90f';
+}
+
+.arrow_style-style3 .slick-next::before {
+    content: '\e910';
+}
+
+
+/* ================== Custom dots */
+
+
+/* circle style */
+
+.video-slider-elementor-widget.dots_style-circle .slick-dots li button {
+    border-radius: 50%;
+    font-size: 0;
+    padding: 0;
+    /* width: 30px;
+    height: 30px; */
+}

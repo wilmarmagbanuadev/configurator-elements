@@ -1,0 +1,21 @@
+#galleryModal .modal-content {
+    background-color: rgba(0, 0, 0, 0.16);
+}
+#galleryModal .modal-header{
+    border: unset;
+}
+#galleryModal .modal-title{
+    opacity: 0;
+}
+#galleryModal .modal-header .btn-close{
+    margin-right: 30px;
+    color: #fff;
+    background: unset;
+}
+#galleryModal .modal-header .btn-close i {
+    font-size: 35px;
+}
+#galleryModal .spinner-grow {
+    margin: 0 auto;
+    display: block;
+}
