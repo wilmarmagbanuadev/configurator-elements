@@ -14,20 +14,17 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
-
-define( 'Configurator_Template_Kits_Blocks_VERSION', '1.0.0' );
-
-define( 'Configurator_Template_Kits_Blocks__FILE__', __FILE__ );
-define( 'Configurator_Template_Kits_Blocks_PLUGIN_BASE', plugin_basename( Configurator_Template_Kits_Blocks__FILE__ ) );
-define( 'Configurator_Template_Kits_Blocks_PATH', plugin_dir_path( Configurator_Template_Kits_Blocks__FILE__ ) );
-define( 'Configurator_Template_Kits_Blocks_INCLUDES_PATH', Configurator_Template_Kits_Blocks_PATH . 'includes/' );
-define( 'Configurator_Template_Kits_Blocks_MODULES_PATH', Configurator_Template_Kits_Blocks_PATH . 'modules/' );
-define( 'Configurator_Template_Kits_Blocks_URL', plugins_url( '/', Configurator_Template_Kits_Blocks__FILE__ ) );
-define( 'Configurator_Template_Kits_Blocks_ASSETS_URL', Configurator_Template_Kits_Blocks_URL . 'assets/' );
-define( 'Configurator_Template_Kits_Blocks_MODULES_URL', Configurator_Template_Kits_Blocks_URL . 'modules/' );
-
-define( 'Configurator_Template_Kits_SL_STORE_URL', 'https://wordpress-320165-1464446.cloudwaysapps.com/' );
-define( 'Configurator_Template_Kits_SL_ITEM_NAME', 'configurator-template-kits-blocks' );
+if (! defined('Configurator_Template_Kits_Blocks_VERSION')) {define( 'Configurator_Template_Kits_Blocks_VERSION', '1.0.0' );}
+if (! defined('Configurator_Template_Kits_Blocks__FILE__')) {define( 'Configurator_Template_Kits_Blocks__FILE__', __FILE__ );}
+if (! defined('Configurator_Template_Kits_Blocks_PLUGIN_BASE')) {define( 'Configurator_Template_Kits_Blocks_PLUGIN_BASE', plugin_basename( Configurator_Template_Kits_Blocks__FILE__ ) );}
+if (! defined('Configurator_Template_Kits_Blocks_PATH')) {define( 'Configurator_Template_Kits_Blocks_PATH', plugin_dir_path( Configurator_Template_Kits_Blocks__FILE__ ) );}
+if (! defined('Configurator_Template_Kits_Blocks_INCLUDES_PATH')) {define( 'Configurator_Template_Kits_Blocks_INCLUDES_PATH', Configurator_Template_Kits_Blocks_PATH . 'includes/' );}
+if (! defined('Configurator_Template_Kits_Blocks_MODULES_PATH')) {define( 'Configurator_Template_Kits_Blocks_MODULES_PATH', Configurator_Template_Kits_Blocks_PATH . 'modules/' );}
+if (! defined('Configurator_Template_Kits_Blocks_URL')) {define( 'Configurator_Template_Kits_Blocks_URL', plugins_url( '/', Configurator_Template_Kits_Blocks__FILE__ ) );}
+if (! defined('Configurator_Template_Kits_Blocks_ASSETS_URL')) {define( 'Configurator_Template_Kits_Blocks_ASSETS_URL', Configurator_Template_Kits_Blocks_URL . 'assets/' );}
+if (! defined('Configurator_Template_Kits_Blocks_MODULES_URL')) {define( 'Configurator_Template_Kits_Blocks_MODULES_URL', Configurator_Template_Kits_Blocks_URL . 'modules/' );}
+if (! defined('Configurator_Template_Kits_SL_STORE_URL')) {define( 'Configurator_Template_Kits_SL_STORE_URL', 'https://wordpress-320165-1464446.cloudwaysapps.com/' );}
+if (! defined('Configurator_Template_Kits_SL_ITEM_NAME')) {define( 'Configurator_Template_Kits_SL_ITEM_NAME', 'configurator-template-kits-blocks' );}
 
 
 
@@ -158,10 +155,10 @@ function configurator_template_kits_blocks_action_links( $actions ) {
  
 
 
-add_action('admin_head', 'hide_admin_footer');
+//add_action('admin_head', 'hide_admin_footer');
 
 function hide_admin_footer() {
-	if($_GET['page']=='configurator-template-kits-blocks'){
+	if($_GET['page']=='configurator-elements'){
 		echo '<style>
 		#wpfooter {
 			display: none;

@@ -1,3 +1,9 @@
+/* 
+## Add Custom Css to admin panel 
+*/
+#toplevel_page_configurator-elements .wp-menu-image.dashicons-before {
+    margin-top: 6px;
+  }
 img {
     max-width: 100%;
 }

@@ -92,7 +92,8 @@ $display_pagination_option = ! empty( $blank_elements_options['display_paginatio
                                                     'name' => 'blank-elements-pro[display_breadcrumb-option][]',
                                                     'style' => $widget,
                                                     'value' => $widget,
-                                                    'info' => ($display_breadcrumb_option[0]==null)?'hide':$display_breadcrumb_option[0],
+                                                    //'info' => ($display_breadcrumb_option[0]==null)?'hide':$display_breadcrumb_option[0],
+                                                    'info' => ($display_breadcrumb_option==null)?'hide':$display_breadcrumb_option,
                                                     'options'=> [
                                                         'checked' => ((in_array( $widget, $display_breadcrumb_option ) && $pro == false) ? true : false),
                                                     ]
@@ -116,7 +117,8 @@ $display_pagination_option = ! empty( $blank_elements_options['display_paginatio
                                                     'name' => 'blank-elements-pro[related_products-option][]',
                                                     'style' => $widget,
                                                     'value' => $widget,
-                                                    'info' => ($related_products_option[0]==null)?'hide':$related_products_option[0],
+                                                    //'info' => ($related_products_option[0]==null)?'hide':$related_products_option[0],
+                                                    'info' => ($related_products_option==null)?'hide':$related_products_option,
                                                     'options'=> [
                                                         'checked' => ((in_array( $widget, $related_products_option ) && $pro == false) ? true : false),
                                                     ]
@@ -173,6 +175,7 @@ $display_pagination_option = ! empty( $blank_elements_options['display_paginatio
                                   'label' => esc_html__('', 'blank-elements-pro'),
                                   'placeholder' => '5',
                                   'value' => ($product_per_page_count[0]==null)?5:$product_per_page_count[0],
+                                  //'value' => ($product_per_page_count==null)?5:$product_per_page_count,
                               ]);
                           ?>
                         <br>
@@ -187,7 +190,8 @@ $display_pagination_option = ! empty( $blank_elements_options['display_paginatio
                                             'name' => 'blank-elements-pro[display_pagination][]',
                                             'style' => $widget,
                                             'value' => $widget,
-                                            'info' => ($display_pagination_option[0]==null)?'hide':$display_pagination_option[0],
+                                            //'info' => ($display_pagination_option[0]==null)?'hide':$display_pagination_option[0],
+                                            'info' => ($display_pagination_option==null)?'hide':$display_pagination_option,
                                             'options'=> [
                                                 'checked' => ((in_array( $widget, $display_pagination_option ) && $pro == false) ? true : false),
                                             ]
