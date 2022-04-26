@@ -2,9 +2,9 @@
 /**
  * Plugin Name: Configurator Elements
  * Description: Custom Elementor widgets for Configurator Theme
- * Plugin URI: https://innwit.com/
+ * Plugin URI: https://configuratorelements.wpconfigurator.com
  * Author: Innwit
- * Version: 1.0.1
+ * Version: 1
  * Author URI: https://innwit.com/
  *
  * Text Domain: configurator-elements
